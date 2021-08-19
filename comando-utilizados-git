@@ -1,0 +1,78 @@
+Receitas utilizadas da empresa coisas e coisas
+
+
+@Autores: 
+Isabelle de Andrade Bittencourt
+Kamilla Delfino 
+Felipe Dalperio
+
+
+==================================Comandos Utilizados=============================
+
+#Iniciando o projeto com o Git
+git init
+
+#Fazendo a conexão do repositório local com o repositório remoto 
+git remote add origin https://github.com/isabellebittencourt/coisas-e-coisas.git
+
+#Criando a Branch de produção
+git checkout -b producao
+
+
+git add .
+
+git commit -m "Adicionando o arquivo README e criando a Branch de produção"
+
+git push origin producao
+
+#Criando a Branch de Desenvolvimento
+git checkout -b desenvolvimento
+
+git add .
+
+git commit -m "Criando a branch de desenvolvimento e adicionando o arquivo README"
+
+git push origin desenvolvimento
+
+
+
+git clone https://github.com/isabellebittencourt/coisas-e-coisas.git
+
+git add  .
+
+git commit -m " Nova alteração txt "
+
+git push origin producao
+
+git checkout desenvolvimento
+
+#Criando primeira historia ( Receita do bolo ):
+
+git add  .
+
+git commit -m " Adicionando ingredientes do bolo "
+
+git push origin desenvolvimento
+
+#Adicionando modo de preparo:
+
+git add  .
+
+git commit -m " #Task1.2 - Modo de preparo do bolo "
+
+git push origin desenvolvimento
+
+#Adicionando os Autores:
+
+git add  .
+
+git commit -m " #Task 1.3 - Autores da receita "
+
+git push origin desenvolvimento
+
+
+git add .
+
+git commit -m "Merge"
+
+git push origin producao
