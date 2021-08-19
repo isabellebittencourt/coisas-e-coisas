@@ -36,3 +36,43 @@ git push origin desenvolvimento
 
 
 
+git clone https://github.com/isabellebittencourt/coisas-e-coisas.git
+
+git add  .
+
+git commit -m " Nova alteração txt "
+
+git push origin producao
+
+git checkout desenvolvimento
+
+#Criando primeira historia ( Receita do bolo ):
+
+git add  .
+
+git commit -m " Adicionando ingredientes do bolo "
+
+git push origin desenvolvimento
+
+#Adicionando modo de preparo:
+
+git add  .
+
+git commit -m " #Task1.2 - Modo de preparo do bolo "
+
+git push origin desenvolvimento
+
+#Adicionando os Autores:
+
+git add  .
+
+git commit -m " #Task 1.3 - Autores da receita "
+
+git push origin desenvolvimento
+
+
+git add .
+
+git commit -m "Merge"
+
+git push origin producao
